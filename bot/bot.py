@@ -132,7 +132,3 @@ async def set_country_error(interaction: discord.Interaction, error: app_command
             "🛑 Ошибка доступа: У вас нет полномочий изменять границы государств!", 
             ephemeral=True
         )
-
-# --- ЗАПУСК ---
-# Вставь сюда свой токен
-bot.run('YOUR_TOKEN_HERE')
